@@ -36,5 +36,5 @@ A Flutter mobile application for **Umubaji Hub**, connecting to an existing **Ty
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/Umubaji-hub-app.git
+git clone https://github.com/Mbonimana/Umubaji-hub-app.git
 cd Umubaji-hub-app
