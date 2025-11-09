@@ -1,16 +1,40 @@
-# umubaji_hub_app
+# Umubaji Hub Mobile App
 
-A new Flutter project.
+A Flutter mobile application for **Umubaji Hub**, connecting to an existing **TypeScript/Express backend**. This app allows users to log in and access the main features of Umubaji Hub.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Login Screen**
+  - Email and password input
+  - Validation
+  - Loading indicator
+  - Navigation to Home page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Home Screen**
+  - Welcome message for logged-in users
+  - Placeholder for main app features (can be extended)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Offline Development Ready**
+  - Fake login functionality for testing without backend
+  - Can later connect to the real backend API
+
+---
+
+## Tech Stack
+
+- **Frontend:** Flutter (Dart)  
+- **Backend:** TypeScript / Express (already existing)  
+- **State Management:** setState (can be extended to Provider, Bloc, etc.)  
+- **HTTP Client:** `http` package  
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/Umubaji-hub-app.git
+cd Umubaji-hub-app
