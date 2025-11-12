@@ -48,12 +48,14 @@ class ProductCard extends StatelessWidget {
                   children: [
                     OutlinedButton.icon(
                       icon: const Icon(Icons.visibility, size: 16),
-                      label: const Text('View'),
+                      label: const Text('View',style:TextStyle(color:Colors.white),),
+                      style: ElevatedButton.styleFrom(backgroundColor: const Color.fromRGBO(255, 247, 0, 1)),
                       onPressed: () {},
                     ),
                     ElevatedButton.icon(
                       icon: const Icon(Icons.add_shopping_cart, size: 16),
-                      label: const Text('Add'),
+                      label: const Text('Add', style:TextStyle(color:Colors.white),),
+                      
                       style: ElevatedButton.styleFrom(backgroundColor: Colors.brown),
                       onPressed: () {},
                     ),
